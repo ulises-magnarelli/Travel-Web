@@ -721,6 +721,10 @@ form{
     --h1-font: 4.6rem;
     --h2-font: 3rem;
   }
+
+  .categorie-content{
+    grid-template-columns: repeat(auto-fit, minmax(90px, auto));
+  }
 }
 
 
@@ -835,6 +839,9 @@ form{
     grid-template-columns: 1fr;
   }
 
+  .categorie{
+    margin-top: 100px;
+  }
 }
 
 
