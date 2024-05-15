@@ -19,8 +19,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>Document</title>
+    <title>TravelWeb</title>
 </head>
 <body>
     
@@ -37,7 +38,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#destination">Destinations</a></li>
             <li><a href="#testimonial">Testimonial</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#book">Book</a></li>
         </ul>
 
 
@@ -55,9 +56,9 @@
 
 
 <!-- HOME SECTION -->
-<section class="home" id="home">
+<section class="home" id="home" >
 
-    <div class="home-text">
+    <div class="home-text" data-aos="fade-right">
 
         <h1>Discover the Best Lovely Places.</h1>
         <p>Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us</p>
@@ -70,7 +71,7 @@
     </div>
 
 
-    <div class="home-img">
+    <div class="home-img" data-aos="fade-left">
         <img src="img/hero.png" alt="">
     </div>
 </section>
@@ -78,7 +79,7 @@
 
 
 <!-- CATEGORIE SECTION -->
-<section class="categorie">
+<section class="categorie"  data-aos="fade-up">
     <div class="categorie-content">
 
         <div class="row">
@@ -123,12 +124,12 @@
 <!-- ABOUT SECTION -->
 <section class="about" id="about">
 
-    <div class="about-img">
+    <div class="about-img" data-aos="fade-right">
         <img src="img/about.png" alt="">
     </div>
 
 
-    <div class="about-text">
+    <div class="about-text" data-aos="fade-left">
         <span>Our Experience</span>
         <h2>Our Store Have Adventure</h2>
         <p>We are experienced in bringing adventures to stay their journey, with all outdoor destinations in the world as our specialties. Start your adventure now! Nature has already called you!</p>
@@ -174,14 +175,14 @@
 <section class="destination" id="destination">
 
 
-    <div class="center-text">
+    <div class="center-text"  data-aos="fade-right">
         <h2>Destination</h2>
         <p>Here are lots of interesting destinations to visit, but don't be confused, they're already grouped by category</p>
     </div>
 
 
 
-    <div class="destination-content">
+    <div class="destination-content" data-aos="fade-left">
 
 
         <div class="box">
@@ -250,12 +251,12 @@
 <!-- TESTIMONIAL SECTION -->
 <section class="testimonial" id="testimonial">
 
-    <div class="testimonial-img">
+    <div class="testimonial-img" data-aos="fade-right">
         <img src="img/tst.png" alt="">
     </div>
 
 
-    <div class="testimonial-text">
+    <div class="testimonial-text" data-aos="fade-left">
         <h2>A customer said about us:</h2>
 
         <div class="tst-in">
@@ -298,8 +299,8 @@
 
 
 
-<!-- CTA SECTION -->
-<section class="cta">
+<!-- BOOK SECTION -->
+<section class="cta" data-aos="fade-up" id="book">
     <div class="cta-content">
 
         <h3>Let's start booking a room</h3>
@@ -329,16 +330,14 @@
 
 
 <!-- CONTACT SECTION -->
-<section class="contact" id="contact">
+<section class="contact">
 
     <div class="footer-box">
 
-        <a href="#" class="footer-logo">
-            <img src="img/Logo.png" alt="">
-        </a>
 
 
-        <p>Enjoy the touring <br>with us</p>
+
+        <h3>Social</h3>
 
 
         <div class="social-link">
@@ -401,5 +400,12 @@
 </div>
 
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1300,
+      });
+    </script>
 </body>
 </html>

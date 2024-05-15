@@ -308,16 +308,17 @@ header.sticky{
   font-size: var(--h2-font);
   font-weight: 700;
   margin: 20px;
+  text-align: center;
 }
 
 
 .center-text p{
   width: 100%;
-  max-width: 400px;
   font-size: var(--p-font);
   font-weight: 500;
   line-height: 30px;
   color: var(--other-color);
+  text-align: center;
 }
 
 
